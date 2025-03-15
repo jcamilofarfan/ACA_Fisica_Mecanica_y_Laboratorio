@@ -6,13 +6,13 @@ Este repositorio contiene un proyecto desarrollado en Visual Studio Code utiliza
 
 En este trabajo se incluye:
 - Un análisis de la fuerza gravitacional utilizando la fórmula:
-  \[
-  F_{\text{teo}}(m_1, m_2, r) = G\,\frac{m_1 \, m_2}{r^2}, \quad \text{donde} \quad G = 6.67 \times 10^{-11}\,\text{N}\,\text{m}^2/\text{kg}^2.
-  \]
+  $$
+  F_{\text{teo}}(m_1, m_2, r) = G\,\frac{m_1\,m_2}{r^2}, \quad \text{donde} \quad G = 6.67 \times 10^{-11}\,\text{N}\,\text{m}^2/\text{kg}^2.
+  $$
 - El cálculo del error porcentual entre la fuerza observada y la teórica, definido como:
-  \[
+  $$
   \text{Error}(\%) = \left|\frac{F_{\text{obs}} - F_{\text{teo}}}{F_{\text{teo}}}\right| \times 100\%.
-  \]
+  $$
 - Una tabla que compara los valores observados y teóricos, y una conclusión basada en el análisis realizado.
 
 ## Requisitos
@@ -25,7 +25,7 @@ En este trabajo se incluye:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/jcamilofarfan/ACA_Fisica_Mecanica_y_Laboratorio.git
    ```
    	2.	Abre el proyecto en Visual Studio Code.
 	3.	Asegúrate de tener instaladas las herramientas necesarias para compilar documentos LaTeX.
@@ -35,12 +35,8 @@ Documentación Adicional
 
 Para una guía detallada sobre cómo escribir documentos LaTeX en Visual Studio Code utilizando un Mac, consulta el siguiente manual:
 
-How to Write LaTeX Documents with Visual Studio Code on Mac
-
-Contribuciones
-
-Si deseas contribuir a este proyecto, realiza un fork del repositorio, implementa tus cambios y envía un pull request. ¡Toda contribución es bienvenida!
+[How to Write LaTeX Documents with Visual Studio Code on Mac](https://sudorealm.com/blog/how-to-write-latex-documents-with-visual-studio-code-on-mac)
 
 Licencia
 
-Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto se distribuye bajo la Licencia MIT.
